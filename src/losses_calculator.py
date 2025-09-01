@@ -1,9 +1,9 @@
-mport json
-import math
+import json
+
 
 # Load and parse the JSON data file
 def load_data(filepath):
-    with open(filepath, 'r') as file:
+    with open(filepath) as file:
         return json.load(file)
 
     # Calculate total projected loss with additional complexity and errors
