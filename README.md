@@ -63,19 +63,19 @@ This project uses modern Python development tools to help you write clean, maint
 ### Code Quality Tools
 ```bash
 # Lint your code for style and potential issues
-uv run ruff check
+uv run lint          # or: uv run ruff check
 
 # Auto-fix common linting issues
-uv run ruff check --fix
+uv run fix           # or: uv run ruff check --fix
 
 # Format your code according to project standards
-uv run ruff format
+uv run format        # or: uv run ruff format
 ```
 
 ### Running Your Code
 ```bash
 # Run the main script (executes the losses calculator)
-uv run python src/main.py
+uv run loss          # or: uv run python src/main.py
 ```
 
 These tools will help you identify and fix issues in your code as you work through the exercises.
