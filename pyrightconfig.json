@@ -1,0 +1,15 @@
+{
+    "include": ["src"],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        ".venv",
+        ".git"
+    ],
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Darwin"
+}
