@@ -78,4 +78,13 @@ uv run format        # or: uv run ruff format
 uv run loss          # or: uv run python src/main.py
 ```
 
+### Available UV Scripts
+```bash
+# Quick reference for all available commands
+uv run lint          # Lint code with ruff
+uv run fix           # Auto-fix linting issues
+uv run format        # Format code with ruff
+uv run loss          # Run the loss calculation script
+```
+
 These tools will help you identify and fix issues in your code as you work through the exercises.
