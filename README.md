@@ -54,4 +54,28 @@ Provide a written explanation of how you would scale your Python script from Exe
 
 ### Expected Submission
 - **Written Explanation**: Detail your strategy for scaling the script, including recommended technologies or methods and their effectiveness.
-- **Code Snippets**: Optionally, provide code examples to support your explanations.
+- **Code Snippets**: Optionally, include Python code snippets that showcase your scalability solutions.
+
+## Development Tools
+
+This project uses modern Python development tools to help you write clean, maintainable code:
+
+### Code Quality Tools
+```bash
+# Lint your code for style and potential issues
+uv run ruff check
+
+# Auto-fix common linting issues
+uv run ruff check --fix
+
+# Format your code according to project standards
+uv run ruff format
+```
+
+### Running Your Code
+```bash
+# Run the main script (executes the losses calculator)
+uv run python src/main.py
+```
+
+These tools will help you identify and fix issues in your code as you work through the exercises.
